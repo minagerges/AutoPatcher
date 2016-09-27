@@ -1,6 +1,9 @@
 # AutoPatcher
 **Symantec End Point Management, Patch Management automation tool**
 
+***
+
+
 _**Requirements:**_
 * Symantec Management Platform - Patch Management 8.0 or later.
 * Run as an account with sufficient permisions for Stagging, Distribution and PM package Integrity check.
