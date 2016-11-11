@@ -1,0 +1,30 @@
+Release Notes
+==============
+
+AutoPatcher 8.0.6159.29392
+---------------------------
+- Fixed issue #5 Supress WinForm error MessageBox in quiet mode
+
+
+AutoPatcher 8.0.6155.22880
+---------------------------
+- Fixed #1 No cancel if waiting for other operation.
+- Fixed #2 Policies created with no target, when target filter is selected.
+- Fixed #4 CLI does not log any messages to console CLI only accepts "/config:" parameter, all configuration parameters are deprecated.
+
+
+AutoPatcher 8.0.6120.21405
+--------------------------
+- Added "Override Maintenance Window" to distribution configuration
+- Fixed issue, occasionally running operation in UI mode fails
+- Fixed issue, distribution custom schedule wrong start date
+- Minor bug fixes and code enhancements
+
+
+AutoPatcher 8.0.6114.21485
+--------------------------
+- Fixed issue, distribution operation fails to overwrite existing policies with same name
+- Increased wait for other Autopatcher operation timeout to 90 minutes
+- Cleaning operation deletes empty folders
+- Fixed issue, some Linux patch policies do not move to dated folder
+- Fixed cosmetic issue, "Download applicable updates only" sometimes causes policy warning (Associated bulletins are not enabled)
