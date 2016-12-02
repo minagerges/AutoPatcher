@@ -1,6 +1,16 @@
 Release Notes
 ==============
 
+AutoPatcher 8.0.6180.22240
+---------------------------
+- Enhanced Bulletins Details SQL query
+- Fixed issue causing corrupted policy when setting custom schedule
+- Enhanced Bulletins compliance count by excluding superseded updates
+- Fixed #6 Updates compliance accuracy
+- Fixed #7 update doesn't delete BAK file
+- Fixed #8 Update tag version regex
+
+
 AutoPatcher 8.0.6159.29392
 ---------------------------
 - Fixed issue #5 Supress WinForm error MessageBox in quiet mode
