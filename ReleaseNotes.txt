@@ -1,7 +1,7 @@
 Release Notes
 ==============
 
-AutoPatcher 8.0.6247.26512
+AutoPatcher 8.0.6247.26873
 ---------------------------
 - Bulletins details collecting performance enhancement
 - Updates details collecting performance enhancement
