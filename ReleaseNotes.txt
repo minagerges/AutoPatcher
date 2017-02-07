@@ -1,6 +1,13 @@
 Release Notes
 ==============
 
+AutoPatcher 8.0.6247.24645
+---------------------------
+- Bulletins details collecting performance enhancement
+- Updates details collecting performance enhancement
+- Added option to import "All Bulletins Details" report
+
+
 AutoPatcher 8.0.6180.22240
 ---------------------------
 - Enhanced Bulletins Details SQL query
