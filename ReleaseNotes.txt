@@ -1,6 +1,21 @@
 Release Notes
 ==============
 
+AutoPatcher 8.0.6276.27575
+---------------------------
+- Fixed issue #9, Bulletins updates/downloaded counts are wrong for some update
+- Performance improvement, (SQL queries filter Bulletins/Updates by date)
+	- NB.: Upon setting "Patch Start Date" to earlier date, reloading BulletinsDetails is required.
+- Fixed cosmetic issue, downloadable/distributable updates contain duplicates.
+- Fixed issue #10, cancel button causing ThreadInterrupTedException.
+- Added Bulletins filter (Skip with policy).
+- User Interface allows window resize.
+- Minor UI improvements.
+- Fixed issue in "All Bulletins detailed Information" report, where Downloaded parameter was misbehaving.
+- Fixed issue with distribution task timeout hardcoded.
+- Fixed issue with "All Bulletin's updates" report having duplicates.
+
+
 AutoPatcher 8.0.6247.26873
 ---------------------------
 - Bulletins details collecting performance enhancement
