@@ -1,6 +1,21 @@
 Release Notes
 ==============
 
+AutoPatcher 8.0.6365.23955
+---------------------------
+- CentOS support.
+- Fixed issue, Linux policy creation sometimes fails when Platform is set to "Any".
+- Fixed issue, wrong severities in UI checkboxes list.
+- User interface minor improvements.
+- Enhanced Linux "Kernel" include/exclude filters.
+- Expanded Dynamic date values (ThisYear, ThisQuarter, ThisMonth, ThisWeek, Today)
+- Some settings are checked from registry, eg.: HKLM\Software\Altiris\AutoPatcher\
+	MutexTimeout: Timeout in minutes to wait for another running Autopatcher process to finish, before starting current instance.
+	SQLCommandTimeout: SQL command timeout in seconds
+- Cancel can terminate running SQL command and (Internal Patch Integrity Check)
+- Help documentation update.
+
+
 AutoPatcher 8.0.6276.27575
 ---------------------------
 - Fixed issue #9, Bulletins updates/downloaded counts are wrong for some update
