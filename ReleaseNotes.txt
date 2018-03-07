@@ -1,6 +1,18 @@
 Release Notes
 ==============
 
+AutoPatcher 8.0.6640.21880
+---------------------------
+- Allow force manual delete packages with disabled Bulletins & no policies
+	HKLM\Software\Altiris\AutoPatcher\ForceDeletePackages (DWORD), default 0
+- Allow skip integrity check task
+	HKLM\Software\Altiris\AutoPatcher\SkipIntegrityCheck (DWORD), default 0
+- Fixed issue #13, SQL localized date format
+- Fixed issue #14, custom filters no visible in "Target Filter" dropdown
+- Fixed issue #15, AutoPatcher update fails if TLS 1.2 is disabled
+- Minor UI and logging improvements
+
+
 AutoPatcher 8.0.6365.23955
 ---------------------------
 - CentOS support.
