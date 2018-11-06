@@ -1,6 +1,12 @@
 Release Notes
 ==============
 
+AutoPatcher 8.0.6884.32228
+---------------------------
+- Minor fix in date parser
+- Autoupdate to Autopatcher 8.5 upon SMP 8.5 detection
+
+
 AutoPatcher 8.0.6640.21880
 ---------------------------
 - Allow force manual delete packages with disabled Bulletins & no policies
