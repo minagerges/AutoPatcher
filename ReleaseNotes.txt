@@ -1,6 +1,11 @@
 Release Notes
 ==============
 
+AutoPatcher 8.5.6884.33309
+---------------------------
+- 8.5 compatibility
+
+
 AutoPatcher 8.0.6884.32228
 ---------------------------
 - Minor fix in date parser
