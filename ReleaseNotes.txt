@@ -1,6 +1,12 @@
 Release Notes
 ==============
 
+AutoPatcher 8.5.7013.28683
+---------------------------
+- Fixed issue #18, operation fails upon specifying policy target
+- Fixed issue upon loading config file to UI
+
+
 AutoPatcher 8.5.6884.33309
 ---------------------------
 - 8.5 compatibility
