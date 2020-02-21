@@ -1,6 +1,14 @@
 Release Notes
 ==============
 
+AutoPatcher 8.5.7356.28305
+---------------------------
+- Added support for Custom severity filtering
+- Added custom severity column in "All Bulletins detailed information" report
+- Fixed "All Bulletins detailed information" Report UI issue.
+- Fixed issue, where linux created policy were placed under Windows folder, if platform is set to ANY
+
+
 AutoPatcher 8.5.7013.28683
 ---------------------------
 - Fixed issue #18, operation fails upon specifying policy target
